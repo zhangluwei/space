@@ -7,5 +7,7 @@ public class LogEventFactory  implements EventFactory<LogEvent> {
     public LogEvent newInstance() {
         return new LogEvent();
     }
-
+    
+    
+    
 }
